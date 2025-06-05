@@ -1,0 +1,30 @@
+# Ignore node modules
+node_modules/
+
+# Ignore build outputs (except storybook-static for Vercel)
+dist/
+.vite/
+
+# Storybook dev cache
+.storybook-out/
+.storybook-static-old/
+
+# Ignore editor files
+.vscode/
+.DS_Store
+
+# Ignore logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mac system files
+Thumbs.db
+
+# OS / Env
+.env
+.env.local
+.env.*.local
+
+# Don't ignore this!
+!storybook-static/
